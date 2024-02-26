@@ -14,6 +14,10 @@
 		3679F2592B8BDE3E00036CFF /* ShoppingListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F2582B8BDE3E00036CFF /* ShoppingListAppTests.swift */; };
 		3679F2632B8BDE3E00036CFF /* ShoppingListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F2622B8BDE3E00036CFF /* ShoppingListAppUITests.swift */; };
 		3679F2652B8BDE3E00036CFF /* ShoppingListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F2642B8BDE3E00036CFF /* ShoppingListAppUITestsLaunchTests.swift */; };
+		3679F2742B8BDF4D00036CFF /* TaxCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F2732B8BDF4D00036CFF /* TaxCalculatorView.swift */; };
+		3679F2762B8BE18B00036CFF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F2752B8BE18B00036CFF /* Colors.swift */; };
+		3679F2782B8BE20800036CFF /* ShoppingListHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F2772B8BE20800036CFF /* ShoppingListHomeView.swift */; };
+		3679F27C2B8C14C900036CFF /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F27B2B8C14C900036CFF /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		3679F25E2B8BDE3E00036CFF /* ShoppingListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3679F2622B8BDE3E00036CFF /* ShoppingListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAppUITests.swift; sourceTree = "<group>"; };
 		3679F2642B8BDE3E00036CFF /* ShoppingListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3679F2732B8BDF4D00036CFF /* TaxCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculatorView.swift; sourceTree = "<group>"; };
+		3679F2752B8BE18B00036CFF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3679F2772B8BE20800036CFF /* ShoppingListHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListHomeView.swift; sourceTree = "<group>"; };
+		3679F27B2B8C14C900036CFF /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				3679F2492B8BDE3B00036CFF /* ContentView.swift */,
 				3679F24B2B8BDE3E00036CFF /* Assets.xcassets */,
 				3679F24D2B8BDE3E00036CFF /* Preview Content */,
+				3679F2732B8BDF4D00036CFF /* TaxCalculatorView.swift */,
+				3679F2752B8BE18B00036CFF /* Colors.swift */,
+				3679F2772B8BE20800036CFF /* ShoppingListHomeView.swift */,
+				3679F27B2B8C14C900036CFF /* LaunchScreen.swift */,
 			);
 			path = ShoppingListApp;
 			sourceTree = "<group>";
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3679F2742B8BDF4D00036CFF /* TaxCalculatorView.swift in Sources */,
+				3679F2762B8BE18B00036CFF /* Colors.swift in Sources */,
+				3679F27C2B8C14C900036CFF /* LaunchScreen.swift in Sources */,
+				3679F2782B8BE20800036CFF /* ShoppingListHomeView.swift in Sources */,
 				3679F24A2B8BDE3B00036CFF /* ContentView.swift in Sources */,
 				3679F2482B8BDE3B00036CFF /* ShoppingListAppApp.swift in Sources */,
 			);
