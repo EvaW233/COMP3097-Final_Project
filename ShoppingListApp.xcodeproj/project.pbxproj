@@ -18,6 +18,13 @@
 		3679F2762B8BE18B00036CFF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F2752B8BE18B00036CFF /* Colors.swift */; };
 		3679F2782B8BE20800036CFF /* ShoppingListHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F2772B8BE20800036CFF /* ShoppingListHomeView.swift */; };
 		3679F27C2B8C14C900036CFF /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679F27B2B8C14C900036CFF /* LaunchScreen.swift */; };
+		368105ED2BB0C322008070E7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368105EC2BB0C322008070E7 /* Item.swift */; };
+		368105EF2BB0C332008070E7 /* ProductGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368105EE2BB0C332008070E7 /* ProductGroup.swift */; };
+		368105F22BB0C350008070E7 /* ShoppingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368105F12BB0C350008070E7 /* ShoppingListViewModel.swift */; };
+		368105F52BB0C888008070E7 /* AddItemPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368105F42BB0C888008070E7 /* AddItemPopup.swift */; };
+		368105F72BB0C8B9008070E7 /* AboutItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368105F62BB0C8B9008070E7 /* AboutItemView.swift */; };
+		368105F92BB0C8DE008070E7 /* DeleteGroupPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368105F82BB0C8DE008070E7 /* DeleteGroupPopup.swift */; };
+		368105FB2BB0C8F9008070E7 /* AddGroupPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368105FA2BB0C8F9008070E7 /* AddGroupPopup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,13 @@
 		3679F2752B8BE18B00036CFF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		3679F2772B8BE20800036CFF /* ShoppingListHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListHomeView.swift; sourceTree = "<group>"; };
 		3679F27B2B8C14C900036CFF /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		368105EC2BB0C322008070E7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		368105EE2BB0C332008070E7 /* ProductGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGroup.swift; sourceTree = "<group>"; };
+		368105F12BB0C350008070E7 /* ShoppingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewModel.swift; sourceTree = "<group>"; };
+		368105F42BB0C888008070E7 /* AddItemPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemPopup.swift; sourceTree = "<group>"; };
+		368105F62BB0C8B9008070E7 /* AboutItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutItemView.swift; sourceTree = "<group>"; };
+		368105F82BB0C8DE008070E7 /* DeleteGroupPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteGroupPopup.swift; sourceTree = "<group>"; };
+		368105FA2BB0C8F9008070E7 /* AddGroupPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupPopup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,14 +116,13 @@
 		3679F2462B8BDE3B00036CFF /* ShoppingListApp */ = {
 			isa = PBXGroup;
 			children = (
+				368105F32BB0C35D008070E7 /* Utilities */,
+				368105F02BB0C33F008070E7 /* ViewModels */,
+				368105EB2BB0C2FE008070E7 /* Models */,
+				368105EA2BB0C2C4008070E7 /* Views */,
 				3679F2472B8BDE3B00036CFF /* ShoppingListAppApp.swift */,
-				3679F2492B8BDE3B00036CFF /* ContentView.swift */,
 				3679F24B2B8BDE3E00036CFF /* Assets.xcassets */,
 				3679F24D2B8BDE3E00036CFF /* Preview Content */,
-				3679F2732B8BDF4D00036CFF /* TaxCalculatorView.swift */,
-				3679F2752B8BE18B00036CFF /* Colors.swift */,
-				3679F2772B8BE20800036CFF /* ShoppingListHomeView.swift */,
-				3679F27B2B8C14C900036CFF /* LaunchScreen.swift */,
 			);
 			path = ShoppingListApp;
 			sourceTree = "<group>";
@@ -137,6 +150,46 @@
 				3679F2642B8BDE3E00036CFF /* ShoppingListAppUITestsLaunchTests.swift */,
 			);
 			path = ShoppingListAppUITests;
+			sourceTree = "<group>";
+		};
+		368105EA2BB0C2C4008070E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3679F2732B8BDF4D00036CFF /* TaxCalculatorView.swift */,
+				3679F27B2B8C14C900036CFF /* LaunchScreen.swift */,
+				3679F2772B8BE20800036CFF /* ShoppingListHomeView.swift */,
+				3679F2492B8BDE3B00036CFF /* ContentView.swift */,
+				368105F42BB0C888008070E7 /* AddItemPopup.swift */,
+				368105F62BB0C8B9008070E7 /* AboutItemView.swift */,
+				368105F82BB0C8DE008070E7 /* DeleteGroupPopup.swift */,
+				368105FA2BB0C8F9008070E7 /* AddGroupPopup.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		368105EB2BB0C2FE008070E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				368105EC2BB0C322008070E7 /* Item.swift */,
+				368105EE2BB0C332008070E7 /* ProductGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		368105F02BB0C33F008070E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				368105F12BB0C350008070E7 /* ShoppingListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		368105F32BB0C35D008070E7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3679F2752B8BE18B00036CFF /* Colors.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +324,17 @@
 			files = (
 				3679F2742B8BDF4D00036CFF /* TaxCalculatorView.swift in Sources */,
 				3679F2762B8BE18B00036CFF /* Colors.swift in Sources */,
+				368105F72BB0C8B9008070E7 /* AboutItemView.swift in Sources */,
 				3679F27C2B8C14C900036CFF /* LaunchScreen.swift in Sources */,
+				368105EF2BB0C332008070E7 /* ProductGroup.swift in Sources */,
+				368105F92BB0C8DE008070E7 /* DeleteGroupPopup.swift in Sources */,
+				368105F22BB0C350008070E7 /* ShoppingListViewModel.swift in Sources */,
 				3679F2782B8BE20800036CFF /* ShoppingListHomeView.swift in Sources */,
+				368105ED2BB0C322008070E7 /* Item.swift in Sources */,
+				368105F52BB0C888008070E7 /* AddItemPopup.swift in Sources */,
 				3679F24A2B8BDE3B00036CFF /* ContentView.swift in Sources */,
 				3679F2482B8BDE3B00036CFF /* ShoppingListAppApp.swift in Sources */,
+				368105FB2BB0C8F9008070E7 /* AddGroupPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,4 @@
-// UI SUBMISSION - Comp 3097
+// Project Prototype - Comp 3097
 // Students:
 // - Luis Rodrigo Procopio Andrada (101356043)
 // - Eva Wang (101381503)
